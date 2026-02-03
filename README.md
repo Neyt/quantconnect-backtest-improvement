@@ -179,3 +179,49 @@ def Initialize(self):
 ---
 
 *Last updated: January 2025*
+
+---
+
+## Using This Guide with AI Assistants
+
+This guide is designed to be used as instructions for AI coding assistants (ChatGPT, Claude, Copilot, etc.) when working on QuantConnect projects.
+
+### How to Use
+
+1. **Copy the relevant section** you need (e.g., Transaction Costs)
+2. **Paste into your AI chat** along with your algorithm code
+3. **Ask the AI** to implement the specific validation technique
+
+### Example Prompt for AI
+
+```
+Using the QuantConnect Robust Backtesting Guide, please add:
+1. InteractiveBrokers fee model
+2. Volume share slippage model
+3. Parameter sensitivity using GetParameter()
+
+Here is my current algorithm:
+[paste your code]
+```
+
+---
+
+## Official QuantConnect Examples
+
+For reference, QuantConnect provides these official examples in the LEAN repository:
+
+- [CustomModelsAlgorithm.py](https://github.com/QuantConnect/Lean/blob/master/Algorithm.Python/CustomModelsAlgorithm.py) - Custom fee, slippage, fill, and buying power models
+- [ParameterizedAlgorithm.cs](https://github.com/QuantConnect/Lean/blob/master/Algorithm.CSharp/ParameterizedAlgorithm.cs) - Parameter optimization example
+
+---
+
+## Contributing
+
+Feel free to:
+- Fork this repository
+- Submit pull requests with improvements
+- Open issues for questions or suggestions
+
+---
+
+*Created by the QuantConnect community. Last updated: February 2026*
